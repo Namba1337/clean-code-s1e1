@@ -14,14 +14,11 @@ body {
 
 .header__image {
   width: 100%;
+  margin-bottom: -3px;
 }
 
 .header__link {
   font-family: fantasy, cursive;
-}
-
-section {
-  margin-top: 16px;
 }
 
 @media screen and (max-width: 768px) {
