@@ -4,15 +4,18 @@ body {
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .header__image {
     width: 100%;
 }
+
 .header__link {
     font-family: fantasy, cursive;
 }
@@ -22,11 +25,11 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  .header {
-    text-align: center;
-  }
+    .header {
+        text-align: center;
+    }
 }
-  
+
 .main {
     display: block;
     width: 500px;
@@ -44,16 +47,17 @@ section {
 }
 
 ul {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 li {
-    list-style:none;
+    list-style: none;
 }
 
-input,button{
-    outline:none;
+input,
+button {
+    outline: none;
 }
 
 button {
@@ -120,7 +124,7 @@ li {
     align-items: center;
 }
 
-li > * {
+li>* {
     vertical-align: middle;
 }
 
@@ -157,14 +161,14 @@ li > * {
 
 /* Edit Task */
 .todo__input {
-    display:none
+    display: none
 }
 
 .todo__item--editMode .todo__input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .todo__item--editMode .todo__label {
-    display:none;
+    display: none;
 }
