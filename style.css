@@ -87,6 +87,7 @@ h3,
 }
 
 input[type="text"] {
+  box-sizing: border-box;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
