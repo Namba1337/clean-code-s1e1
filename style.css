@@ -99,12 +99,13 @@ input[type="text"] {
   font-size: 18px;
   line-height: 18px;
   height: 21px;
-  padding: 0 9px;
+  padding: 0 9px 2px;
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  flex-grow: 1;
 }
 
 input[type="text"]:focus {
@@ -140,11 +141,7 @@ li {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-
-.todo__input-edit {
-  width: 226px
+  flex-grow: 1;
 }
 
 .todo__button-delete img,
@@ -172,7 +169,6 @@ li {
 
 .todo__item--editMode .todo__input-edit {
   display: inline-block;
-  width: 224px
 }
 
 .todo__item--editMode .todo__label {
