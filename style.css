@@ -133,44 +133,42 @@ li {
   vertical-align: middle;
 }
 
-.todo__checkbox {
+.item__checkbox {
   margin: 0 10px;
 }
 
-.todo__label {
+.item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   flex-grow: 1;
 }
 
-.todo__button-delete img,
-.completed__button-delete img {
+.item__button-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.todo__button-delete img:hover,
-.completed__button-delete img:hover {
+.item__button-delete img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.completed__list label {
+.completed__list .item__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.todo__input-edit {
+.item__input-edit {
   display: none
 }
 
-.todo__item--editMode .todo__input-edit {
+.item--editMode .item__input-edit {
   display: inline-block;
 }
 
-.todo__item--editMode .todo__label {
+.item--editMode .item__label {
   display: none;
 }
